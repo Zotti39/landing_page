@@ -1,0 +1,33 @@
+/*Header Part of the CSS*/
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 50px;
+    justify-content: space-between; /*linha que separa o logo da navbar, pois cria um espa;o entre elas*/
+    display: flex;
+    font-size: 18px;
+    background-color:bisque;
+    padding: 10px 20px;
+}
+.NavLogo{
+    display: flex;
+    align-items: center;
+}
+.NavLogo img{
+    width: auto;
+    height: 100%;
+}
+.Navbar ul{
+    list-style: none;
+    gap: 10px;
+    display: flex;
+}
+.Navbar li{
+    padding: 0px 5px;
+}
+
+/*Body part of the CSS*/
+
+
