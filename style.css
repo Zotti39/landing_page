@@ -8,8 +8,9 @@ header{
     justify-content: space-between; /*linha que separa o logo da navbar, pois cria um espa;o entre elas*/
     display: flex;
     font-size: 18px;
-    background-color:bisque;
+    background-color:#1F2937;
     padding: 10px 20px;
+    color: white;
 }
 .NavLogo{
     display: flex;
@@ -29,5 +30,22 @@ header{
 }
 
 /*Body part of the CSS*/
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+}
+.p{
+    background-color: #1F2937;
+}
+.b{
+    background-color: #e0e5ed;
+}
+.c{
+    background-color: #afb8c8;
+}
+.container .linha{
+    flex: 1;
+}
 
 
