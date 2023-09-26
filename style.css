@@ -7,7 +7,7 @@ header{
     height: 50px;
     justify-content: space-between; /*linha que separa o logo da navbar, pois cria um espa;o entre elas*/
     display: flex;
-    font-size: 18px;
+    font-size: 18pt;
     background-color:#1F2937;
     padding: 10px 200px;
     color: white;
@@ -30,7 +30,7 @@ header{
 }
 
 /*Body part of the CSS*/
-.container{
+.containerP{
     display: flex;
     flex-direction: column;
     height: 180vh;
@@ -44,23 +44,22 @@ header{
 .c{
     background-color: #afb8c8;
 }
-.container .linha{
+.containerP .linha{
     flex: 1;
     display: flex;
-    gap: 25px;
     padding: 50px 200px;
 }
 /*Content part of the body*/
-.container .linha div{
+.containerP .linha div{
     flex: 1;
 }
 h1{
-    font: 48px ;
-    font-size:bold; 
+    font: 48pt ;
+    font-weight: bolder; 
     color: #f9faf8;
 }
 h3{
-    font: 18px;
+    font: 18pt;
     color: #E5E7EB;
 }
 button{
@@ -79,6 +78,47 @@ button{
     background-repeat: no-repeat; /* A imagem de fundo não se repetirá */
     background-position: center center; /* Centralizar a imagem de fundo */
 }
+/*Second line of the design*/
+.horizontal{
+    flex-direction: column;
+}
+.horizontal div h2{
+    font-weight: bolder;
+    font-size: 36pt;
+}
+.containerS{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.containerS div{
+    flex: 1;
+    border: #3882f6 solid 5px;
+    border-radius: 20px;
+    height: 110px;
+}
+.containerS p{
+    text-align: center;
+}
+/*Third line of the design*/
+.n3{
+    flex-direction: column;
+}
+.n3 p:nth-child(1){
+    text-align: left;
+    font-size: 36pt ;
+    font-style: italic;
+    color: #4b525c;
+}
+.n3 p:nth-child(2){
+    text-align: right;
+    font-weight: bold;
+    font-size: 24pt;
+}
+/*Fourth line of the design*/
+
+
 
 
 
