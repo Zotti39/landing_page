@@ -5,11 +5,11 @@ html, body {
 }
 header{
     height: 50px;
+    background-color:#1F2937;
+    padding: 10px 300px;
     justify-content: space-between; /*linha que separa o logo da navbar, pois cria um espa;o entre elas*/
     display: flex;
     font-size: 18pt;
-    background-color:#1F2937;
-    padding: 10px 200px;
     color: white;
 }
 .NavLogo{
@@ -33,7 +33,6 @@ header{
 .containerP{
     display: flex;
     flex-direction: column;
-    height: 180vh;
 }
 .p{
     background-color: #1F2937;
@@ -47,7 +46,7 @@ header{
 .containerP .linha{
     flex: 1;
     display: flex;
-    padding: 50px 200px;
+    padding: 50px 300px;
 }
 /*Content part of the body*/
 .containerP .linha div{
@@ -62,7 +61,7 @@ h3{
     font: 18pt;
     color: #E5E7EB;
 }
-button{
+#button1{
     border-radius: 5px;
     background-color: #3882f6;
     color: white;
@@ -72,7 +71,6 @@ button{
 #Pimagem{
     background-color: gray;
     width: 100%; /* Largura desejada da imagem */
-    height: 100%; /* Altura desejada da imagem */
     background-image: url('#');  /*URL da imagem de espaço reservado */
     background-size: cover; /* A imagem de fundo cobrirá a área da div */
     background-repeat: no-repeat; /* A imagem de fundo não se repetirá */
@@ -117,6 +115,41 @@ button{
     font-size: 24pt;
 }
 /*Fourth line of the design*/
+#linha4{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 140px;
+    padding: 10px 150px;
+    align-items: center;
+}
+#linha4 div:nth-child(1){
+    flex: 3;
+    font-size: 20pt;
+    color: #f9faf8;
+}
+#linha4 div:nth-child(2){
+    flex: 1;
+}
+#button2{
+    border: #f9faf8 solid 3px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 18pt;
+}
+/*Footer design*/
+footer{
+    height: 50px;
+    background-color:#1F2937;
+    padding: 10px 300px;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 14pt;
+    align-items: center;
+}
 
 
 
